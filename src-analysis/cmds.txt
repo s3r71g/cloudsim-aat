@@ -1,0 +1,11 @@
+FCFS Simulation
+javac -classpath jars/cloudsim-3.0.3.jar:src-analysis src-analysis/FCFS/FCFS_Scheduler.java
+java -classpath jars/cloudsim-3.0.3.jar:src-analysis FCFS.FCFS_Scheduler
+
+RR Simulation
+javac -classpath jars/cloudsim-3.0.3.jar:src-analysis src-analysis/RoundRobin/RoundRobinScheduler.java
+java -classpath jars/cloudsim-3.0.3.jar:src-analysis RoundRobin.RoundRobinScheduler
+
+SJF Simulation
+javac -classpath jars/cloudsim-3.0.3.jar:src-analysis src-analysis/SJF/SJF_Scheduler.java
+java -classpath jars/cloudsim-3.0.3.jar:src-analysis SJF.SJF_Scheduler
